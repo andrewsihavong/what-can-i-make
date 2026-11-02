@@ -1,12 +1,35 @@
-print("What Can I Make?")
+# Main program stuff goes here
+from recipes import load_recipes
+from matcher import find_matches
 
-ingredients = input("Enter your ingredients separated by commas: ")
+# This is where we get user input and connect everything together
 
-if ingredients.strip() == "":
-    print("You did not enter any ingredients.")
-else:
-    ingredient_list = ingredients.split(",")
-    print("Your ingredients are:")
-    
-    for ingredient in ingredient_list:
-        print(ingredient.strip())
+
+def main():
+    """Run the main recipe program."""
+
+    print("What Can I Make?")
+
+    ingredients = input("Enter your ingredients separated by commas: ")
+
+    if ingredients.strip() == "":
+        print("You did not enter any ingredients.")
+    else:
+        ingredient_list = ingredients.split(",")
+        clean_ingredients = []
+
+        for ingredient in ingredient_list:
+            clean_ingredients.append(ingredient.strip().lower())
+        recipes = load_recipes()
+        matches = find_matches(clean_ingredients, recipes)
+
+        if len(matches) == 0:
+            print("No matching recipes found.")
+        else:
+            print("Here are all the recipes you can make!")
+            for recipe in matches:
+                print("- " + recipe["name"])
+
+
+if __name__ == "__main__":
+    main()

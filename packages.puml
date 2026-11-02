@@ -1,0 +1,9 @@
+@startuml packages
+set namespaceSeparator none
+package "main" as main {
+}
+package "matcher" as matcher {
+}
+package "recipes" as recipes {
+}
+@enduml
