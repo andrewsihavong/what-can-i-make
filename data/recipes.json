@@ -1,34 +1,42 @@
 [
   {
     "name": "Grilled Cheese",
-    "ingredients": ["bread", "cheese", "butter"]
+    "ingredients": ["bread", "cheese", "butter"],
+    "instructions": "Butter the bread, place cheese between slices, and grill until golden brown."
   },
   {
     "name": "Ham and Cheese Sandwich",
-    "ingredients": ["bread", "ham", "cheese", "mayo"]
+    "ingredients": ["bread", "ham", "cheese", "mayo"],
+    "instructions": "Spread mayo on one side of one slice of bread, and ham and cheese on the other slice. Press together and enjoy."
   },
   {
     "name": "Turkey and Cheese Sandwich",
-    "ingredients": ["bread", "turkey", "cheese", "mayo"]
+    "ingredients": ["bread", "turkey", "cheese", "mayo"],
+    "instructions": "Spread mayo on one side of each slice of bread. Layer turkey and cheese between the slices."
   },
   {
     "name": "Ham and Turkey Sandwich",
-    "ingredients": ["bread", "ham","turkey", "mayo"]
+    "ingredients": ["bread", "ham","turkey", "mayo"],
+    "instructions": "Spread mayo on one side of each slice of bread. Layer ham and turkey between the slices."
   },
   {
     "name": "Ham Sandwich",
-    "ingredients": ["bread", "ham","mayo"]
+    "ingredients": ["bread", "ham","mayo"],
+    "instructions": "Spread mayo on one side of each slice of bread. Layer ham between the slices."
   },
   {
     "name": "Turkey Sandwich",
-    "ingredients": ["bread", "turkey","mayo"]
+    "ingredients": ["bread", "turkey","mayo"],
+    "instructions": "Spread mayo on one side of each slice of bread. Layer turkey between the slices."
   },
   {
     "name": "Peanut Butter and Jelly Sandwich",
-    "ingredients": ["bread", "peanut butter","jelly"]
+    "ingredients": ["bread", "peanut butter","jelly"],
+    "instructions": "Spread peanut butter on one side of one slice of bread, and jelly on one side of the other slice. Press together and enjoy."
   },
   {
     "name": "Peanut Butter and Marshmallow Sandwich",
-    "ingredients": ["bread", "peanut butter", "marshmallow fluff"]
+    "ingredients": ["bread", "peanut butter", "marshmallow fluff"],
+    "instructions": "Spread peanut butter on one side of one slice of bread, and marshmallow fluff on one side of the other slice. Press together and enjoy."
   }
 ]
