@@ -29,7 +29,22 @@ def main():
             print("Here are all the recipes you can make!")
             for recipe in matches:
                 print("- " + recipe["name"])
+            choice = input("Please select a recipe to make by entering the name: ")
 
+            selected_recipe = None
+
+            while selected_recipe is None:
+                for recipe in matches:
+                    if choice.strip().lower() == recipe["name"].lower():
+                        selected_recipe = recipe
+                        break
+
+                if selected_recipe is None:
+                    print("Invalid selection. Please choose a recipe from the list.")
+                    choice = input("Enter the name of a recipe: ")
+
+            print("You have selected: " + selected_recipe["name"])
+            
 
 if __name__ == "__main__":
     main()
