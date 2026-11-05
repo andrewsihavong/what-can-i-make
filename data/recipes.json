@@ -1,34 +1,34 @@
 [
   {
     "name": "Grilled Cheese",
-    "ingredients": ["bread", "cheese", "butter"],
+    "ingredients": ["bread", "cheese", "butter"]
   },
   {
     "name": "Ham and Cheese Sandwich",
-    "ingredients": ["bread", "ham", "cheese", "mayo"],
+    "ingredients": ["bread", "ham", "cheese", "mayo"]
   },
   {
     "name": "Turkey and Cheese Sandwich",
-    "ingredients": ["bread", "turkey", "cheese", "mayo"],
+    "ingredients": ["bread", "turkey", "cheese", "mayo"]
   },
   {
     "name": "Ham and Turkey Sandwich",
-    "ingredients": ["bread", "ham","turkey", "mayo"],
+    "ingredients": ["bread", "ham","turkey", "mayo"]
   },
   {
     "name": "Ham Sandwich",
-    "ingredients": ["bread", "ham","mayo"],
+    "ingredients": ["bread", "ham","mayo"]
   },
   {
     "name": "Turkey Sandwich",
-    "ingredients": ["bread", "turkey","mayo"],
+    "ingredients": ["bread", "turkey","mayo"]
   },
   {
     "name": "Peanut Butter and Jelly Sandwich",
-    "ingredients": ["bread", "peanut butter","jelly"],
+    "ingredients": ["bread", "peanut butter","jelly"]
   },
   {
     "name": "Peanut Butter and Marshmallow Sandwich",
-    "ingredients": ["bread", "peanut butter", "marshmallow fluff"],
+    "ingredients": ["bread", "peanut butter", "marshmallow fluff"]
   }
 ]
